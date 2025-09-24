@@ -1,13 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
-    </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyunseok Cho • Portfolio</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header id="top" class="site-header">
+      <nav id="navbar" class="nav">
+        <a class="brand" href="#hero">HC</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#video">Video</a></li>
+        </ul>
+        <div class="progress"><span class="bar"></span></div>
+      </nav>
+    </header>
+
+    <!-- main hero section -->
+    <section id="hero" class="stripe hero center-vert">
+      <div class="container hero-content">
+        <h1 class="title">Hyunseok (Daniel) Cho</h1>
+        <p class="subtitle">Computer Engineering at UIUC • Software • AI Agents • Full Stack</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn primary">See Projects</a>
+          <button class="btn ghost" data-open="about-modal">Read Bio</button>
+        </div>
+        <div class="socials">
+          <a class="icon" href="https://github.com/hscho421" aria-label="GitHub" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.12-1.52-1.12-1.52-.92-.64.07-.63.07-.63 1.02.07 1.56 1.07 1.56 1.07 .9 1.57 2.36 1.12 2.93.86 .09-.67.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.06 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.76 1.05 .8-.23 1.66-.35 2.52-.36 .86.01 1.72.12 2.52.36 1.92-1.33 2.76-1.05 2.76-1.05 .55 1.42.2 2.47.1 2.73 .64.72 1.03 1.64 1.03 2.76 0 3.93-2.33 4.79-4.55 5.05 .36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49 3.97-1.36 6.84-5.19 6.84-9.71C22 6.58 17.52 2 12 2z"/></svg>
+          </a>
+          <a class="icon" href="https://www.linkedin.com/in/hyunseok-cho" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.05c.53-1 1.84-2.1 3.78-2.1 4.04 0 4.79 2.66 4.79 6.12V24h-4v-6.9c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.64V24h-4V8.5z"/></svg>
+          </a>
+          <a class="icon" href="mailto:hc55@illinois.edu" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 13.065 0 4.5V20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V4.5l-12 8.565ZM12 10 0 1.5h24L12 10Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- for the background image -->
+    <section id="parallax" class="stripe parallax">
+      <div class="parallax-overlay">
+        <h2 class="overlay-title">Let's talk about me.</h2>
+      </div>
+    </section>
+
+    <!-- for the multi column grade -->
+    <section id="about" class="stripe">
+      <div class="container">
+        <h2>About Me</h2>
+        <p id="info">My name is Hyunseok (Daniel) Cho, and I am a Computer Engineering student at the University of Illinois Urbana-Champaign passionate about software engineering, AI powered automation, and full stack development. I have gained global experience through internships, including my current role as an AI Software Engineering Intern at Samsung SDS in Seoul, where I design multi stage GUI agents with large language models and benchmark open source LLMs on NVIDIA H100 GPUs. Previously, I built full stack web applications, automated workflows with Google APIs, and created Slack bots that reduced workloads by 40 percent.</p>
+        <p id="info">Outside of internships, I enjoy developing impactful projects like CoursePlanner, a full stack academic planning web app for UIUC students featuring GPA visualization, drag and drop semester planning, and course explorer API integration. I am driven by curiosity and the challenge of solving complex problems, whether through algorithm design, scalable systems, or AI driven interaction. My goal is to keep creating innovative tools that bridge technology and human experience.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="stripe experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="job">
+          <h3>AI Software Engineering Intern</h3>
+          <p class="meta">SAMSUNG • Seoul, South Korea • June 2025 – August 2025</p>
+          <ul>
+            <li>Achieved 90%+ success rate in desktop task automation by designing and deploying a 3-stage GUI agent powered by multimodal LLMs.</li>
+            <li>Reduced inference latency by 35% by containerizing and deploying pipelines on NVIDIA H100 GPUs.</li>
+            <li>Designed and implemented a planning pipeline that transformed natural language into structured multi-step action plans using few-shot prompting and chain-of-thought reasoning.</li>
+            <li>Benchmarked open-source LLMs (Qwen, LLaMA, Gemma) for accuracy, latency, and decomposition, guiding production model selection.</li>
+            <li>Coordinated with research engineers to improve grounding workflows and establish best practices for multi-step automation.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Software Engineering Intern</h3>
+          <p class="meta">DEEPDIVE • Seoul, South Korea • June 2024 – August 2024</p>
+          <ul>
+            <li>Built and launched a full-stack product exchange system with Flask and React, streamlining CX workflows and serving hundreds of daily requests.</li>
+            <li>Deployed backend on GCP VMs, integrated Google BigQuery for order history analytics, and created automated SQL pipelines.</li>
+            <li>Improved response time by 25% with Nginx load balancing and Gunicorn caching during peak traffic.</li>
+            <li>Proposed and led automation with Google Sheets API that cut CX workload by 40%, enabling focus on higher-value customer operations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="stripe">
+      <div class="container">
+        <h2>Skills</h2>
+        <section id="gallery" class="stripe">
+          <div class="container">
+            <div class="grid">
+              <div class="tile"><img src="assets/python.svg"></div>
+              <div class="tile"><img src="assets/c++.svg"></div>
+              <div class="tile"><img src="assets/javascript.svg"></div>
+              <div class="tile"><img src="assets/react.svg"></div>
+              <div class="tile"><img src="assets/sql.svg"></div>
+              <div class="tile"><img src="assets/html.svg"></div>
+            </div>
+          </div>
+        </section>
+        <div class="columns">
+          <div class="col">
+            <h3>Programming Languages</h3>
+            <ul class="badges">
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>JavaScript/TypeScript</li>
+              <li>HTML/CSS</li>
+              <li>SQL</li>
+              <li>SystemVerilog</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Frameworks and Tools</h3>
+            <ul class="badges">
+              <li>Flask</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>PyTorch</li>
+              <li>Git</li>
+              <li>Docker</li>
+              <li>Google Cloud Platform (GCP)</li>
+              <li>Amazon Web Services (AWS)</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Specializations</h3>
+            <ul class="badges">
+              <li>LLM-based AI Applications</li>
+              <li>AI model fine-tuning</li>
+              <li>Full stack web development</li>
+              <li>Backend systems and automation</li>
+              <li>Data strucutres & algorithms</li>
+              <li>Cloud computing and deployment</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <!-- carousel -->
+    <section id="projects" class="stripe">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="carousel" aria-roledescription="carousel">
+          <button class="arrow left" aria-label="Previous slide">‹</button>
+          <div class="viewport">
+            <div class="track">
+              <article class="slide">
+                <h3>CoursePlanner</h3>
+                <p>Academic planning app for UIUC students. GPA visualization, drag and drop semester planning, PDF export, UIUC course explorer integration.</p>
+                <a href="https://www.github.com/hscho421/courseplanner" target="_blank" rel="noopener noreferrer" class="btn small ghost" aria-disabled="true">GitHub</a>
+              </article>
+              <article class="slide">
+                <h3>CampusNav</h3>
+                <p>Web app that calculates walking time between classes and visualizes an optimal schedule to reduce travel time on campus.</p>
+                <a href="https://www.github.com/hscho421/campusnav" target="_blank" rel="noopener noreferrer" class="btn small ghost" aria-disabled="true">GitHub</a>
+              </article>
+              <article class="slide">
+                <h3>Minesweeper in FPGA</h3>
+                <p>Designed and implemented the classic Minesweeper game on an FPGA using SystemVerilog, showcasing hardware-based logic, real-time interaction, and efficient state machine design.</p>
+                <a href="https://www.github.com/hscho421/fpga-minesweeper" target="_blank" rel="noopener noreferrer" class="btn small ghost" aria-disabled="true">GitHub</a>
+              </article>
+            </div>
+          </div>
+          <button class="arrow right" aria-label="Next slide">›</button>
+          <div class="dots" role="tablist" aria-label="Slide dots"></div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- VIDEO stripe -->
+    <section id="video" class="stripe">
+      <div class="container video-wrap">
+        <h2>Demo Video</h2>
+        <p>Here is a demo video of a web application I created called CampusNav, which helps students plan their class schedules by calculating walking distances and times between campus buildings using the Google Maps API.</p>
+        <video controls preload="metadata" width="960">
+          <source src="assets/demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="stripe footer">
+      <div class="container">
+        <p>© <span id="year"></span> Hyunseok Cho. All rights reserved.</p>
+        <div class="footer-icons">
+          <a class="icon" href="#hero" aria-label="Back to top">↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODALS -->
+    <div id="about-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="about-title" hidden>
+      <div class="modal-content">
+        <button class="close" data-close aria-label="Close">×</button>
+        <h3 id="about-title">Short Bio</h3>
+        <p>I am a Computer Engineering student at UIUC with experience in software engineering, AI automation, and full stack development. I have interned at Samsung SDS, where I built an AI powered GUI automation agent using large language models on NVIDIA H100 GPUs, and at a Seoul based company where I developed a full stack web application and automated workflows with Google Cloud. I also enjoy building personal projects like CoursePlanner, a web app that helps students plan semesters and visualize GPA trends.</p>
+      </div>
+    </div>
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
