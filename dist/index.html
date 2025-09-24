@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyunseok Cho • Portfolio</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <header id="top" class="site-header">
+      <nav id="navbar" class="nav">
+        <a class="brand" href="#hero">HC</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#video">Video</a></li>
+        </ul>
+        <div class="progress"><span class="bar"></span></div>
+      </nav>
+    </header>
+
+    <!-- main hero section -->
+    <section id="hero" class="stripe hero center-vert">
+      <div class="container hero-content">
+        <h1 class="title">Hyunseok (Daniel) Cho</h1>
+        <p class="subtitle">Computer Engineering at UIUC • Software • AI Agents • Full Stack</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn primary">See Projects</a>
+          <button class="btn ghost" data-open="about-modal">Read Bio</button>
+        </div>
+        <div class="socials">
+          <a class="icon" href="https://github.com/hscho421" aria-label="GitHub" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.12-1.52-1.12-1.52-.92-.64.07-.63.07-.63 1.02.07 1.56 1.07 1.56 1.07 .9 1.57 2.36 1.12 2.93.86 .09-.67.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.06 0-1.12.39-2.04 1.03-2.76-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.76 1.05 .8-.23 1.66-.35 2.52-.36 .86.01 1.72.12 2.52.36 1.92-1.33 2.76-1.05 2.76-1.05 .55 1.42.2 2.47.1 2.73 .64.72 1.03 1.64 1.03 2.76 0 3.93-2.33 4.79-4.55 5.05 .36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49 3.97-1.36 6.84-5.19 6.84-9.71C22 6.58 17.52 2 12 2z"/></svg>
+          </a>
+          <a class="icon" href="https://www.linkedin.com/in/hyunseok-cho" aria-label="LinkedIn" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4V24h-4V8.5zM8.5 8.5h3.8v2.1h.05c.53-1 1.84-2.1 3.78-2.1 4.04 0 4.79 2.66 4.79 6.12V24h-4v-6.9c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.64V24h-4V8.5z"/></svg>
+          </a>
+          <a class="icon" href="mailto:hc55@illinois.edu" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 13.065 0 4.5V20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V4.5l-12 8.565ZM12 10 0 1.5h24L12 10Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- for the background image -->
+    <section id="parallax" class="stripe parallax">
+      <div class="parallax-overlay">
+        <h2 class="overlay-title">Let's talk about me.</h2>
+      </div>
+    </section>
+
+    <!-- for the multi column grade -->
+    <section id="about" class="stripe">
+      <div class="container">
+        <h2>About Me</h2>
+        <p id="info">My name is Hyunseok (Daniel) Cho, and I am a Computer Engineering student at the University of Illinois Urbana-Champaign passionate about software engineering, AI powered automation, and full stack development. I have gained global experience through internships, including my current role as an AI Software Engineering Intern at Samsung SDS in Seoul, where I design multi stage GUI agents with large language models and benchmark open source LLMs on NVIDIA H100 GPUs. Previously, I built full stack web applications, automated workflows with Google APIs, and created Slack bots that reduced workloads by 40 percent.</p>
+        <p id="info">Outside of internships, I enjoy developing impactful projects like CoursePlanner, a full stack academic planning web app for UIUC students featuring GPA visualization, drag and drop semester planning, and course explorer API integration. I am driven by curiosity and the challenge of solving complex problems, whether through algorithm design, scalable systems, or AI driven interaction. My goal is to keep creating innovative tools that bridge technology and human experience.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="stripe experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="job">
+          <h3>AI Software Engineering Intern</h3>
+          <p class="meta">SAMSUNG • Seoul, South Korea • June 2025 – August 2025</p>
+          <ul>
+            <li>Achieved 90%+ success rate in desktop task automation by designing and deploying a 3-stage GUI agent powered by multimodal LLMs.</li>
+            <li>Reduced inference latency by 35% by containerizing and deploying pipelines on NVIDIA H100 GPUs.</li>
+            <li>Designed and implemented a planning pipeline that transformed natural language into structured multi-step action plans using few-shot prompting and chain-of-thought reasoning.</li>
+            <li>Benchmarked open-source LLMs (Qwen, LLaMA, Gemma) for accuracy, latency, and decomposition, guiding production model selection.</li>
+            <li>Coordinated with research engineers to improve grounding workflows and establish best practices for multi-step automation.</li>
+          </ul>
+        </div>
+        <div class="job">
+          <h3>Software Engineering Intern</h3>
+          <p class="meta">DEEPDIVE • Seoul, South Korea • June 2024 – August 2024</p>
+          <ul>
+            <li>Built and launched a full-stack product exchange system with Flask and React, streamlining CX workflows and serving hundreds of daily requests.</li>
+            <li>Deployed backend on GCP VMs, integrated Google BigQuery for order history analytics, and created automated SQL pipelines.</li>
+            <li>Improved response time by 25% with Nginx load balancing and Gunicorn caching during peak traffic.</li>
+            <li>Proposed and led automation with Google Sheets API that cut CX workload by 40%, enabling focus on higher-value customer operations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="stripe">
+      <div class="container">
+        <h2>Skills</h2>
+        <section id="gallery" class="stripe">
+          <div class="container">
+            <div class="grid">
+              <div class="tile"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUwMCIgaGVpZ2h0PSIyNDkwIiB2aWV3Qm94PSIwIDAgMjU2IDI1NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWluWU1pbiBtZWV0Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgeDE9IjEyLjk1OSUiIHkxPSIxMi4wMzklIiB4Mj0iNzkuNjM5JSIgeTI9Ijc4LjIwMSUiIGlkPSJhIj48c3RvcCBzdG9wLWNvbG9yPSIjMzg3RUI4IiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzM2Njk5NCIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgeDE9IjE5LjEyOCUiIHkxPSIyMC41NzklIiB4Mj0iOTAuNzQyJSIgeTI9Ijg4LjQyOSUiIGlkPSJiIj48c3RvcCBzdG9wLWNvbG9yPSIjRkZFMDUyIiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0ZGQzMzMSIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggZD0iTTEyNi45MTYuMDcyYy02NC44MzIgMC02MC43ODQgMjguMTE1LTYwLjc4NCAyOC4xMTVsLjA3MiAyOS4xMjhoNjEuODY4djguNzQ1SDQxLjYzMVMuMTQ1IDYxLjM1NS4xNDUgMTI2Ljc3YzAgNjUuNDE3IDM2LjIxIDYzLjA5NyAzNi4yMSA2My4wOTdoMjEuNjF2LTMwLjM1NnMtMS4xNjUtMzYuMjEgMzUuNjMyLTM2LjIxaDYxLjM2MnMzNC40NzUuNTU3IDM0LjQ3NS0zMy4zMTlWMzMuOTdTMTk0LjY3LjA3MiAxMjYuOTE2LjA3MnpNOTIuODAyIDE5LjY2YTExLjEyIDExLjEyIDAgMCAxIDExLjEzIDExLjEzIDExLjEyIDExLjEyIDAgMCAxLTExLjEzIDExLjEzIDExLjEyIDExLjEyIDAgMCAxLTExLjEzLTExLjEzIDExLjEyIDExLjEyIDAgMCAxIDExLjEzLTExLjEzeiIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik0xMjguNzU3IDI1NC4xMjZjNjQuODMyIDAgNjAuNzg0LTI4LjExNSA2MC43ODQtMjguMTE1bC0uMDcyLTI5LjEyN0gxMjcuNnYtOC43NDVoODYuNDQxczQxLjQ4NiA0LjcwNSA0MS40ODYtNjAuNzEyYzAtNjUuNDE2LTM2LjIxLTYzLjA5Ni0zNi4yMS02My4wOTZoLTIxLjYxdjMwLjM1NXMxLjE2NSAzNi4yMS0zNS42MzIgMzYuMjFoLTYxLjM2MnMtMzQuNDc1LS41NTctMzQuNDc1IDMzLjMydjU2LjAxM3MtNS4yMzUgMzMuODk3IDYyLjUxOCAzMy44OTd6bTM0LjExNC0xOS41ODZhMTEuMTIgMTEuMTIgMCAwIDEtMTEuMTMtMTEuMTMgMTEuMTIgMTEuMTIgMCAwIDEgMTEuMTMtMTEuMTMxIDExLjEyIDExLjEyIDAgMCAxIDExLjEzIDExLjEzIDExLjEyIDExLjEyIDAgMCAxLTExLjEzIDExLjEzeiIgZmlsbD0idXJsKCNiKSIvPjwvc3ZnPg=="></div>
+              <div class="tile"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMzA2cHgiIGhlaWdodD0iMzQ0LjM1cHgiIHZpZXdCb3g9IjAgMCAzMDYgMzQ0LjM1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMDYgMzQ0LjM1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiMwMDU5OUMiIGQ9Ik0zMDIuMTA3LDI1OC4yNjJjMi40MDEtNC4xNTksMy44OTMtOC44NDUsMy44OTMtMTMuMDUzVjk5LjE0YzAtNC4yMDgtMS40OS04Ljg5My0zLjg5Mi0xMy4wNTJMMTUzLDE3Mi4xNzUNCglMMzAyLjEwNywyNTguMjYyeiIvPg0KPHBhdGggZmlsbD0iIzAwNDQ4MiIgZD0iTTE2Ni4yNSwzNDEuMTkzbDEyNi41LTczLjAzNGMzLjY0NC0yLjEwNCw2Ljk1Ni01LjczNyw5LjM1Ny05Ljg5N0wxNTMsMTcyLjE3NUwzLjg5MywyNTguMjYzDQoJYzIuNDAxLDQuMTU5LDUuNzE0LDcuNzkzLDkuMzU3LDkuODk2bDEyNi41LDczLjAzNEMxNDcuMDM3LDM0NS40MDEsMTU4Ljk2MywzNDUuNDAxLDE2Ni4yNSwzNDEuMTkzeiIvPg0KPHBhdGggZmlsbD0iIzY1OUFEMiIgZD0iTTMwMi4xMDgsODYuMDg3Yy0yLjQwMi00LjE2LTUuNzE1LTcuNzkzLTkuMzU4LTkuODk3TDE2Ni4yNSwzLjE1NmMtNy4yODctNC4yMDgtMTkuMjEzLTQuMjA4LTI2LjUsMA0KCUwxMy4yNSw3Ni4xOUM1Ljk2Miw4MC4zOTcsMCw5MC43MjUsMCw5OS4xNHYxNDYuMDY5YzAsNC4yMDgsMS40OTEsOC44OTQsMy44OTMsMTMuMDUzTDE1MywxNzIuMTc1TDMwMi4xMDgsODYuMDg3eiIvPg0KPGc+DQoJPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE1MywyNzQuMTc1Yy01Ni4yNDMsMC0xMDItNDUuNzU3LTEwMi0xMDJzNDUuNzU3LTEwMiwxMDItMTAyYzM2LjI5MiwwLDcwLjEzOSwxOS41Myw4OC4zMzEsNTAuOTY4DQoJCWwtNDQuMTQzLDI1LjU0NGMtOS4xMDUtMTUuNzM2LTI2LjAzOC0yNS41MTItNDQuMTg4LTI1LjUxMmMtMjguMTIyLDAtNTEsMjIuODc4LTUxLDUxYzAsMjguMTIxLDIyLjg3OCw1MSw1MSw1MQ0KCQljMTguMTUyLDAsMzUuMDg1LTkuNzc2LDQ0LjE5MS0yNS41MTVsNDQuMTQzLDI1LjU0M0MyMjMuMTQyLDI1NC42NDQsMTg5LjI5NCwyNzQuMTc1LDE1MywyNzQuMTc1eiIvPg0KPC9nPg0KPGc+DQoJPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIyNTUsMTY2LjUwOCAyNDMuNjY2LDE2Ni41MDggMjQzLjY2NiwxNTUuMTc1IDIzMi4zMzQsMTU1LjE3NSAyMzIuMzM0LDE2Ni41MDggMjIxLDE2Ni41MDggDQoJCTIyMSwxNzcuODQxIDIzMi4zMzQsMTc3Ljg0MSAyMzIuMzM0LDE4OS4xNzUgMjQzLjY2NiwxODkuMTc1IDI0My42NjYsMTc3Ljg0MSAyNTUsMTc3Ljg0MSAJIi8+DQo8L2c+DQo8Zz4NCgk8cG9seWdvbiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjI5Ny41LDE2Ni41MDggMjg2LjE2NiwxNjYuNTA4IDI4Ni4xNjYsMTU1LjE3NSAyNzQuODM0LDE1NS4xNzUgMjc0LjgzNCwxNjYuNTA4IDI2My41LDE2Ni41MDggDQoJCTI2My41LDE3Ny44NDEgMjc0LjgzNCwxNzcuODQxIDI3NC44MzQsMTg5LjE3NSAyODYuMTY2LDE4OS4xNzUgMjg2LjE2NiwxNzcuODQxIDI5Ny41LDE3Ny44NDEgCSIvPg0KPC9nPg0KPC9zdmc+DQo="></div>
+              <div class="tile"><img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNjMwIDYzMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMjUwMCIgaGVpZ2h0PSIyNTAwIj48cGF0aCBkPSJNMCAwaDYzMHY2MzBIMHoiIGZpbGw9IiNmN2RmMWUiLz48cGF0aCBkPSJNNDIzLjIgNDkyLjE5YzEyLjY5IDIwLjcyIDI5LjIgMzUuOTUgNTguNCAzNS45NSAyNC41MyAwIDQwLjItMTIuMjYgNDAuMi0yOS4yIDAtMjAuMy0xNi4xLTI3LjQ5LTQzLjEtMzkuM2wtMTQuOC02LjM1Yy00Mi43Mi0xOC4yLTcxLjEtNDEtNzEuMS04OS4yIDAtNDQuNCAzMy44My03OC4yIDg2LjctNzguMiAzNy42NCAwIDY0LjcgMTMuMSA4NC4yIDQ3LjRsLTQ2LjEgMjkuNmMtMTAuMTUtMTguMi0yMS4xLTI1LjM3LTM4LjEtMjUuMzctMTcuMzQgMC0yOC4zMyAxMS0yOC4zMyAyNS4zNyAwIDE3Ljc2IDExIDI0Ljk1IDM2LjQgMzUuOTVsMTQuOCA2LjM0YzUwLjMgMjEuNTcgNzguNyA0My41NiA3OC43IDkzIDAgNTMuMy00MS44NyA4Mi41LTk4LjEgODIuNS01NC45OCAwLTkwLjUtMjYuMi0xMDcuODgtNjAuNTR6bS0yMDkuMTMgNS4xM2M5LjMgMTYuNSAxNy43NiAzMC40NSAzOC4xIDMwLjQ1IDE5LjQ1IDAgMzEuNzItNy42MSAzMS43Mi0zNy4ydi0yMDEuM2g1OS4ydjIwMi4xYzAgNjEuMy0zNS45NCA4OS4yLTg4LjQgODkuMi00Ny40IDAtNzQuODUtMjQuNTMtODguODEtNTQuMDc1eiIvPjwvc3ZnPg=="></div>
+              <div class="tile"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjI1MDAiIHZpZXdCb3g9IjE3NS43IDc4IDQ5MC42IDQzNi45IiB3aWR0aD0iMjE5NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjNjFkYWZiIj48cGF0aCBkPSJtNjY2LjMgMjk2LjVjMC0zMi41LTQwLjctNjMuMy0xMDMuMS04Mi40IDE0LjQtNjMuNiA4LTExNC4yLTIwLjItMTMwLjQtNi41LTMuOC0xNC4xLTUuNi0yMi40LTUuNnYyMi4zYzQuNiAwIDguMy45IDExLjQgMi42IDEzLjYgNy44IDE5LjUgMzcuNSAxNC45IDc1LjctMS4xIDkuNC0yLjkgMTkuMy01LjEgMjkuNC0xOS42LTQuOC00MS04LjUtNjMuNS0xMC45LTEzLjUtMTguNS0yNy41LTM1LjMtNDEuNi01MCAzMi42LTMwLjMgNjMuMi00Ni45IDg0LTQ2Ljl2LTIyLjNjLTI3LjUgMC02My41IDE5LjYtOTkuOSA1My42LTM2LjQtMzMuOC03Mi40LTUzLjItOTkuOS01My4ydjIyLjNjMjAuNyAwIDUxLjQgMTYuNSA4NCA0Ni42LTE0IDE0LjctMjggMzEuNC00MS4zIDQ5LjktMjIuNiAyLjQtNDQgNi4xLTYzLjYgMTEtMi4zLTEwLTQtMTkuNy01LjItMjktNC43LTM4LjIgMS4xLTY3LjkgMTQuNi03NS44IDMtMS44IDYuOS0yLjYgMTEuNS0yLjZ2LTIyLjNjLTguNCAwLTE2IDEuOC0yMi42IDUuNi0yOC4xIDE2LjItMzQuNCA2Ni43LTE5LjkgMTMwLjEtNjIuMiAxOS4yLTEwMi43IDQ5LjktMTAyLjcgODIuMyAwIDMyLjUgNDAuNyA2My4zIDEwMy4xIDgyLjQtMTQuNCA2My42LTggMTE0LjIgMjAuMiAxMzAuNCA2LjUgMy44IDE0LjEgNS42IDIyLjUgNS42IDI3LjUgMCA2My41LTE5LjYgOTkuOS01My42IDM2LjQgMzMuOCA3Mi40IDUzLjIgOTkuOSA1My4yIDguNCAwIDE2LTEuOCAyMi42LTUuNiAyOC4xLTE2LjIgMzQuNC02Ni43IDE5LjktMTMwLjEgNjItMTkuMSAxMDIuNS00OS45IDEwMi41LTgyLjN6bS0xMzAuMi02Ni43Yy0zLjcgMTIuOS04LjMgMjYuMi0xMy41IDM5LjUtNC4xLTgtOC40LTE2LTEzLjEtMjQtNC42LTgtOS41LTE1LjgtMTQuNC0yMy40IDE0LjIgMi4xIDI3LjkgNC43IDQxIDcuOXptLTQ1LjggMTA2LjVjLTcuOCAxMy41LTE1LjggMjYuMy0yNC4xIDM4LjItMTQuOSAxLjMtMzAgMi00NS4yIDItMTUuMSAwLTMwLjItLjctNDUtMS45LTguMy0xMS45LTE2LjQtMjQuNi0yNC4yLTM4LTcuNi0xMy4xLTE0LjUtMjYuNC0yMC44LTM5LjggNi4yLTEzLjQgMTMuMi0yNi44IDIwLjctMzkuOSA3LjgtMTMuNSAxNS44LTI2LjMgMjQuMS0zOC4yIDE0LjktMS4zIDMwLTIgNDUuMi0yIDE1LjEgMCAzMC4yLjcgNDUgMS45IDguMyAxMS45IDE2LjQgMjQuNiAyNC4yIDM4IDcuNiAxMy4xIDE0LjUgMjYuNCAyMC44IDM5LjgtNi4zIDEzLjQtMTMuMiAyNi44LTIwLjcgMzkuOXptMzIuMy0xM2M1LjQgMTMuNCAxMCAyNi44IDEzLjggMzkuOC0xMy4xIDMuMi0yNi45IDUuOS00MS4yIDggNC45LTcuNyA5LjgtMTUuNiAxNC40LTIzLjcgNC42LTggOC45LTE2LjEgMTMtMjQuMXptLTEwMS40IDEwNi43Yy05LjMtOS42LTE4LjYtMjAuMy0yNy44LTMyIDkgLjQgMTguMi43IDI3LjUuNyA5LjQgMCAxOC43LS4yIDI3LjgtLjctOSAxMS43LTE4LjMgMjIuNC0yNy41IDMyem0tNzQuNC01OC45Yy0xNC4yLTIuMS0yNy45LTQuNy00MS03LjkgMy43LTEyLjkgOC4zLTI2LjIgMTMuNS0zOS41IDQuMSA4IDguNCAxNiAxMy4xIDI0czkuNSAxNS44IDE0LjQgMjMuNHptNzMuOS0yMDguMWM5LjMgOS42IDE4LjYgMjAuMyAyNy44IDMyLTktLjQtMTguMi0uNy0yNy41LS43LTkuNCAwLTE4LjcuMi0yNy44LjcgOS0xMS43IDE4LjMtMjIuNCAyNy41LTMyem0tNzQgNTguOWMtNC45IDcuNy05LjggMTUuNi0xNC40IDIzLjctNC42IDgtOC45IDE2LTEzIDI0LTUuNC0xMy40LTEwLTI2LjgtMTMuOC0zOS44IDEzLjEtMy4xIDI2LjktNS44IDQxLjItNy45em0tOTAuNSAxMjUuMmMtMzUuNC0xNS4xLTU4LjMtMzQuOS01OC4zLTUwLjZzMjIuOS0zNS42IDU4LjMtNTAuNmM4LjYtMy43IDE4LTcgMjcuNy0xMC4xIDUuNyAxOS42IDEzLjIgNDAgMjIuNSA2MC45LTkuMiAyMC44LTE2LjYgNDEuMS0yMi4yIDYwLjYtOS45LTMuMS0xOS4zLTYuNS0yOC0xMC4yem01My44IDE0Mi45Yy0xMy42LTcuOC0xOS41LTM3LjUtMTQuOS03NS43IDEuMS05LjQgMi45LTE5LjMgNS4xLTI5LjQgMTkuNiA0LjggNDEgOC41IDYzLjUgMTAuOSAxMy41IDE4LjUgMjcuNSAzNS4zIDQxLjYgNTAtMzIuNiAzMC4zLTYzLjIgNDYuOS04NCA0Ni45LTQuNS0uMS04LjMtMS0xMS4zLTIuN3ptMjM3LjItNzYuMmM0LjcgMzguMi0xLjEgNjcuOS0xNC42IDc1LjgtMyAxLjgtNi45IDIuNi0xMS41IDIuNi0yMC43IDAtNTEuNC0xNi41LTg0LTQ2LjYgMTQtMTQuNyAyOC0zMS40IDQxLjMtNDkuOSAyMi42LTIuNCA0NC02LjEgNjMuNi0xMSAyLjMgMTAuMSA0LjEgMTkuOCA1LjIgMjkuMXptMzguNS02Ni43Yy04LjYgMy43LTE4IDctMjcuNyAxMC4xLTUuNy0xOS42LTEzLjItNDAtMjIuNS02MC45IDkuMi0yMC44IDE2LjYtNDEuMSAyMi4yLTYwLjYgOS45IDMuMSAxOS4zIDYuNSAyOC4xIDEwLjIgMzUuNCAxNS4xIDU4LjMgMzQuOSA1OC4zIDUwLjYtLjEgMTUuNy0yMyAzNS42LTU4LjQgNTAuNnoiLz48Y2lyY2xlIGN4PSI0MjAuOSIgY3k9IjI5Ni41IiByPSI0NS43Ii8+PC9nPjwvc3ZnPg=="></div>
+              <div class="tile"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgMjQwIj4NCjx0aXRsZT5TcWwgZGF0YSBiYXNlIHdpdGggbG9nbzwvdGl0bGU+DQo8ZGVmcz4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQojYmxhY2sgew0KICBmaWxsOiMzMzM7DQp9DQpAbWVkaWEgKHByZWZlcnMtY29sb3Itc2NoZW1lOmRhcmspIHsNCiAgICAjYmxhY2sgew0KICAgICAgICBmaWxsOiB3aGl0ZTsNCiAgICB9DQp9IAkNCjwvc3R5bGU+DQo8L2RlZnM+DQoNCjxlbGxpcHNlIGN4PSIxMjAiIGN5PSI1MCIgcnk9IjM1IiAgcng9Ijg1IiBzdHlsZT0iZmlsbDpub25lOyBzdHJva2U6I2RmNmMyMDtzdHJva2Utd2lkdGg6MTUiIC8+IA0KPHBhdGggZD0ibTM1LDUwIHYxNTAgIGEgODUsMzUgMSAxIDAgMTcwLDAgdi0xNTAgbS0xNzAsNTAgIGEgODUsMzUgMSAxIDAgMTcwLDAgbS0xNzAsNTAgYSA4NSwzNSAxIDEgMCAxNzAsMCIgc3R5bGU9ImZpbGw6bm9uZTsgc3Ryb2tlOiNkZjZjMjA7c3Ryb2tlLXdpZHRoOjE1IiAvPiANCjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7IHN0cm9rZTojZGY2YzIwO3N0cm9rZS13aWR0aDoxNSIgZD0ibTMwMCwxMDAgYSAyNSwyNSAxIDEgMCAtNTAsMCBhIDIwLDI1IDEgMCAwIDI1LDI1IGEgMjAsMjUgMSAwIDEgMjAsMjUgYSAyNSwyNSAxIDAgMSAtNTAsLTUgIi8+DQo8cGF0aCAgc3R5bGU9ImZpbGw6bm9uZTsgc3Ryb2tlOiNkZjZjMjA7c3Ryb2tlLXdpZHRoOjE1IiBkPSJtMzc1LDE3NSBhIDUwLDUwIDEgMSAxIDE1LC01IG0tMTUsLTIwIGwzMCw0MCAiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7IHN0cm9rZTojZGY2YzIwO3N0cm9rZS13aWR0aDoxNSIgZD0ibTQ0MCw3MCB2ODAgIGEgMjUsMjUgMSAwIDAgMjUsMjUgaDIwICIvPg0KPC9zdmc+"></div>
+              <div class="tile"><img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI1MDAiIHdpZHRoPSIyMTgzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjQgMTQxLjUzMTk5OTk5OTk5OTk4Ij48cGF0aCBkPSJNMTAuMzgzIDEyNi44OTRMMCAwbDEyNCAuMjU1LTEwLjk3OSAxMjYuNjM5LTUwLjU1MyAxNC42Mzh6IiBmaWxsPSIjZTM0ZjI2Ii8+PHBhdGggZD0iTTYyLjQ2OCAxMjkuMjc3VjEyLjA4NWw1MS4wNjQuMTctOS4xMDYgMTA0Ljg1MXoiIGZpbGw9IiNlZjY1MmEiLz48cGF0aCBkPSJNOTkuNDkgNDEuMzYybDEuNDQ2LTE1LjQ5SDIyLjM4M2w0LjM0IDQ3LjQ5aDU0LjIxM0w3OC44MSA5My42MTdsLTE3LjM2MiA0LjY4LTE3LjYxNy01LjEwNi0uOTM2LTEyLjA4NUgyNy4zMTlsMi4xMjggMjQuNjgxIDMyIDguOTM2IDMyLjI1NS04LjkzNiA0LjM0LTQ4LjE3SDQxLjEwN0wzOS40OSA0MS4zNjJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+"></div>
+            </div>
+          </div>
+        </section>
+        <div class="columns">
+          <div class="col">
+            <h3>Programming Languages</h3>
+            <ul class="badges">
+              <li>Python</li>
+              <li>C/C++</li>
+              <li>JavaScript/TypeScript</li>
+              <li>HTML/CSS</li>
+              <li>SQL</li>
+              <li>SystemVerilog</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Frameworks and Tools</h3>
+            <ul class="badges">
+              <li>Flask</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>MySQL</li>
+              <li>PyTorch</li>
+              <li>Git</li>
+              <li>Docker</li>
+              <li>Google Cloud Platform (GCP)</li>
+              <li>Amazon Web Services (AWS)</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Specializations</h3>
+            <ul class="badges">
+              <li>LLM-based AI Applications</li>
+              <li>AI model fine-tuning</li>
+              <li>Full stack web development</li>
+              <li>Backend systems and automation</li>
+              <li>Data strucutres & algorithms</li>
+              <li>Cloud computing and deployment</li>
+            </ul>
+          </div>
+      </div>
+    </section>
+
+    <!-- carousel -->
+    <section id="projects" class="stripe">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="carousel" aria-roledescription="carousel">
+          <button class="arrow left" aria-label="Previous slide">‹</button>
+          <div class="viewport">
+            <div class="track">
+              <article class="slide">
+                <h3>CoursePlanner</h3>
+                <p>Academic planning app for UIUC students. GPA visualization, drag and drop semester planning, PDF export, UIUC course explorer integration.</p>
+                <a href="https://www.github.com/hscho421/courseplanner" target="_blank" rel="noopener noreferrer" class="btn small ghost" aria-disabled="true">GitHub</a>
+              </article>
+              <article class="slide">
+                <h3>CampusNav</h3>
+                <p>Web app that calculates walking time between classes and visualizes an optimal schedule to reduce travel time on campus.</p>
+                <a href="https://www.github.com/hscho421/campusnav" target="_blank" rel="noopener noreferrer" class="btn small ghost" aria-disabled="true">GitHub</a>
+              </article>
+              <article class="slide">
+                <h3>Minesweeper in FPGA</h3>
+                <p>Designed and implemented the classic Minesweeper game on an FPGA using SystemVerilog, showcasing hardware-based logic, real-time interaction, and efficient state machine design.</p>
+                <a href="https://www.github.com/hscho421/fpga-minesweeper" target="_blank" rel="noopener noreferrer" class="btn small ghost" aria-disabled="true">GitHub</a>
+              </article>
+            </div>
+          </div>
+          <button class="arrow right" aria-label="Next slide">›</button>
+          <div class="dots" role="tablist" aria-label="Slide dots"></div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- VIDEO stripe -->
+    <section id="video" class="stripe">
+      <div class="container video-wrap">
+        <h2>Demo Video</h2>
+        <p>Here is a demo video of a web application I created called CampusNav, which helps students plan their class schedules by calculating walking distances and times between campus buildings using the Google Maps API.</p>
+        <video controls preload="metadata" width="960">
+          <source src="34a7acf3479a2fa603f7.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="stripe footer">
+      <div class="container">
+        <p>© <span id="year"></span> Hyunseok Cho. All rights reserved.</p>
+        <div class="footer-icons">
+          <a class="icon" href="#hero" aria-label="Back to top">↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- MODALS -->
+    <div id="about-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="about-title" hidden>
+      <div class="modal-content">
+        <button class="close" data-close aria-label="Close">×</button>
+        <h3 id="about-title">Short Bio</h3>
+        <p>I am a Computer Engineering student at UIUC with experience in software engineering, AI automation, and full stack development. I have interned at Samsung SDS, where I built an AI powered GUI automation agent using large language models on NVIDIA H100 GPUs, and at a Seoul based company where I developed a full stack web application and automated workflows with Google Cloud. I also enjoy building personal projects like CoursePlanner, a web app that helps students plan semesters and visualize GPA trends.</p>
+      </div>
+    </div>
+    <script src="1f154ee946c4d4ffd37c.js" defer></script>
+  <script defer src="bundle.js"></script></body>
+</html>
